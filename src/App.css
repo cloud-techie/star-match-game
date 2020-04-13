@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.star {
+	display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 45px;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus, .number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}
